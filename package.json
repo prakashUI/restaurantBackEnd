@@ -1,0 +1,71 @@
+{
+  "name": "generator-angular-php",
+  "version": "0.6.2",
+  "description": "Yeoman generator for AngularJS with a PHP backend. Based on generator-angular. /api is redirected by grunt-connect-proxy to the PHP built-in server using grunt-php",
+  "keywords": [
+    "yeoman-generator",
+    "scaffold",
+    "framework",
+    "component",
+    "front-end",
+    "app",
+    "angular",
+    "php"
+  ],
+  "homepage": "https://github.com/amercier/generator-angular-php",
+  "bugs": "https://github.com/amercier/generator-angular-php/issues",
+  "author": "Alexandre Mercier",
+  "main": "app/index.js",
+  "files": [
+    "app",
+    "common",
+    "constant",
+    "controller",
+    "decorator",
+    "directive",
+    "factory",
+    "filter",
+    "main",
+    "provider",
+    "route",
+    "service",
+    "templates",
+    "value",
+    "view",
+    "script-base.js",
+    "util.js"
+  ],
+  "repository": "amercier/generator-angular-php",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "wiredep": "^1.8.6",
+    "yeoman-generator": "^0.16.0",
+    "yosay": "^0.2.0",
+    "chalk": "^0.4.0"
+  },
+  "peerDependencies": {
+    "generator-karma": "~0.8.3",
+    "yo": "~1.3.3"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-conventional-changelog": "~1.1.0",
+    "grunt-release": "~0.6.0",
+    "load-grunt-tasks": "~0.3.0",
+    "mocha": "~2.0.0",
+    "semver": "~2.3.0",
+    "underscore.string": "~2.3.3"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "BSD"
+    }
+  ]
+}
